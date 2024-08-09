@@ -1,0 +1,23 @@
+<h1>Hello</h1>
+
+<!-- <app-discount></app-discount>
+<app-big-billion-day></app-big-billion-day> -->
+
+<h2>Event Binding</h2>
+<!-- <button (child)="clickMe()">Increment</button> -->
+<button on-click="clickMe()">Increment</button>
+<p>You have clicked {{clickData}}</p>
+
+<p>Two way data biding</p>
+<input type="text" [(ngModel)]="value">
+<p> You entered {{value}}</p>
+<button (click)="clearName()">Clear</button>
+
+<h2>Pipe Demo</h2>
+<p>Unformated Date: {{toDate}}</p>
+<p>Formatted Date: {{toDate | date:'yyyy-MM-dd'}}</p>
+
+<h4>Name Formatted</h4>
+<p>Unformated : {{msg}}</p>
+<p>Formated (UpperCase): {{msg | uppercase}}</p>
+<p>Formated (Lowercase): {{msg | lowercase}}</p>
