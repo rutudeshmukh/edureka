@@ -15,9 +15,18 @@
 
 <h2>Pipe Demo</h2>
 <p>Unformated Date: {{toDate}}</p>
-<p>Formatted Date: {{toDate | date:'yyyy-MM-dd'}}</p>
+<p>Formatted medium Date: {{toDate | date:'medium'}}</p>
+<p>Formatted short Date: {{toDate | date:'short'}}</p>
+<p>Formatted full Date: {{toDate | date:'full'}}</p>
+<p>Formatted fullDate Date: {{toDate | date:'fullDate'}}</p>
+<p>Formatted fullTime Date: {{toDate | date:'fullTime'}}</p>
+<p>Formatted shortDate Date: {{toDate | date:'shortDate'}}</p>
+<p>Formatted mediumDate Date: {{toDate | date:'mediumDate'}}</p>
+<p>Formatted yyyy/MM/dd Date: {{toDate | date:'yyyy/MM/dd'}}</p>
 
 <h4>Name Formatted</h4>
 <p>Unformated : {{msg}}</p>
 <p>Formated (UpperCase): {{msg | uppercase}}</p>
 <p>Formated (Lowercase): {{msg | lowercase}}</p>
+
+<p>Square of Number {{num}} : {{num | square}}</p>

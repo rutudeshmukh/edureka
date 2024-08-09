@@ -27,6 +27,7 @@ export class AppComponent {
   toDate: Date = new Date();
 
   a:string= "learning angular pipes";
-  msg:string=" Welcome to angular 14";
+  msg:string=" Welcome To Angular 14";
 
+  num:number = 5;
 }

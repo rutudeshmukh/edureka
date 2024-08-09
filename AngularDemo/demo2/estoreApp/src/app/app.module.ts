@@ -9,13 +9,15 @@ import { BigBillionDayComponent } from './big-billion-day/big-billion-day.compon
 import { HttpClientModule } from '@angular/common/http';
 import { ChildComponent } from './child/child.component';
 import { FormsModule } from '@angular/forms';
+import { SquarePipe } from './square.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     DiscountComponent,
     BigBillionDayComponent,
-    ChildComponent
+    ChildComponent,
+    SquarePipe
   ],
   imports: [
     BrowserModule,
